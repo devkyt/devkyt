@@ -1,16 +1,28 @@
-### Hi there 👋
+```yaml
+apiVersion: human/v30
+kind: Man
+metadata:
+  name: Kyrylo Tykhanskyi
+  labels:
+    company: StackTome
+    position: DevOps Engineer
+    location: Germany, Dessau 
 
-<!--
-**devkyt/devkyt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+spec:
+  replicas: 1
+  status: vs The World
+  template:
+    spec:
+      container:
+          image: devkyt:latest
+      languages:
+          primary: Python
+          secondary: Go
+      hobbies:
+          - software 
+          - architecture
+          - jogging
+          - videogames
+      securityContext:
+          runAsNonRoot: false
+```
