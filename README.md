@@ -4,7 +4,6 @@ kind: Man
 metadata:
   name: Kyrylo Tykhanskyi
   labels:
-    company: StackTome
     position: DevOps Engineer
     location: Germany, Dessau 
 
