@@ -13,7 +13,7 @@ spec:
   template:
     spec:
       container:
-          image: devkyt:latest
+          image: devkyt:stable
       languages:
           primary: Python
           secondary: Go
